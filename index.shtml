@@ -24,19 +24,19 @@
     <main>
       <header>
         <h1>Who am I? - my portfolio</h1>
+        <h2>Linux enthusiast | Home labber | IT</h2>
+        <p>I'm a Linux enthusiast developing scripts and small programs for my own use.</p>
+        <ul>
+          <li>Bash scripts, installation and configuration of Linux systems and servers</li>
+          <li>Python/micropython, C and some various other languages</li>
+          <li>Information Technology stuff</li>
+          <li>PCB design, computer hardware and various electronics</li>
+        </ul>
+        <figure>
+          <img src="/images/macro-board.avif" alt="PCB design of one of my incomplete projects">
+          <figcaption>PCB design of one of my incomplete projects</figcaption>
+        </figure>
       </header>
-      <h2>Linux enthusiast | Home labber | IT</h2>
-      <p>I'm a Linux enthusiast developing scripts and small programs for my own use.</p>
-      <ul>
-        <li>Bash scripts, installation and configuration of Linux systems and servers</li>
-        <li>Python/micropython, C and some various other languages</li>
-        <li>Information Technology stuff</li>
-        <li>PCB design, computer hardware and various electronics</li>
-      </ul>
-      <figure>
-        <img src="/images/macro-board.avif" alt="PCB design of one of my incomplete projects">
-        <figcaption>PCB design of one of my incomplete projects</figcaption>
-      </figure>
     </main>
     <noscript>
       <p style="color: grey; text-align: center;">Goodbye js!</p>

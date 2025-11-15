@@ -20,14 +20,14 @@
     <main>
       <header>
         <h1>Buy me a coffee!</h1>
+        <p>You found the donation page. Here you can support me!</p>
+        <figure>
+          <a href='https://airvpn.org/?referred_by=763677' title='Air VPN - The air to breathe the real Internet'><img src='images/airvpn.avif' alt='Air VPN - The air to breathe the real Internet'></a>
+          <figcaption>Check it out! This is a Affiliate link.</figcaption>
+        </figure>
+        <p>AirVPN is a private VPN with a strict no-log policy.</p><br> 
+        <p>Better privacy would always be to use a decentralized network, like TOR, and of course use good services and applications. Affiliate links does not make the subscription cost more</p>
       </header>
-      <p>You found the donation page. Here you can support me!</p>
-      <figure>
-        <a href='https://airvpn.org/?referred_by=763677' title='Air VPN - The air to breathe the real Internet'><img src='images/airvpn.avif' alt='Air VPN - The air to breathe the real Internet'></a>
-        <figcaption>Check it out! This is a Affiliate link.</figcaption>
-      </figure>
-      <p>AirVPN is a private VPN with a strict no-log policy.</p><br> 
-      <p>Better privacy would always be to use a decentralized network, like TOR, and of course use good services and applications. Affiliate links does not make the subscription cost more</p>
     </main>
   </body>
 </html>

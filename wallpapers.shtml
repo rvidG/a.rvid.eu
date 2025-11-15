@@ -23,24 +23,23 @@
     <main>
       <header>
         <h1>Wallpapers!</h1>
-      </header>
-      <details>
-        <h2><summary>Grassycat</summary></h2>
-        <div class="wallpaper">
-          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" target="_blank">
-            <img src="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" alt="A really grassy cat">
-          </a><br>
-          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" download>Download AVIF</a><br>
-          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" download>Download PNG</a><br>
-          <a href="/images/wallpaper-vault/GrassyCat/Original.png" alt="Original image before edited" target="_blank">Original image</a><br>
-        </div>
-      </details>
-      <details>
-        <summary>Licensed under WTFPL</summary>
-        <div class="code">
-          <pre><code>
-          DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                  Version 2, December 2004
+        <details>
+          <h2><summary>Grassycat</summary></h2>
+          <div class="wallpaper">
+            <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" target="_blank">
+              <img src="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" alt="A really grassy cat">
+            </a><br>
+            <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" download>Download AVIF</a><br>
+            <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" download>Download PNG</a><br>
+            <a href="/images/wallpaper-vault/GrassyCat/Original.png" alt="Original image before edited" target="_blank">Original image</a><br>
+          </div>
+        </details>
+        <details>
+          <summary>Licensed under WTFPL</summary>
+          <div class="code">
+            <pre><code>
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
 
  Copyright (C) 2025 Arvid &lt;contact@rvid.eu&gt;
 
@@ -48,16 +47,17 @@
  copies of this license document, and changing it is allowed as long
  as the name is changed.
 
-          DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
-          </code></pre>
-        </div>
-      </details>
-      <noscript>
-        <p style="color: grey; text-align: center;">Goodbye js!</p>
-      </noscript>
+            </code></pre>
+          </div>
+      <details>
+      </header>
+    <noscript>
+      <p style="color: grey; text-align: center;">Goodbye js!</p>
+    </noscript>
     </main>
   </body>
 </html>
