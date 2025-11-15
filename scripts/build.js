@@ -137,12 +137,19 @@ async function build() {
     await copyFolder(imagesSrc, path.join(OUT, 'images'));
   }
 
-  const topAssets = ['favicon.svg', 'robots.txt'];
+  const topAssets = ['favicon.svg', 'robots.txt', '404.html'];
   for (const a of topAssets) {
     const src = path.join(ROOT, a);
     if (fs.existsSync(src)) {
       const outPath = path.join(OUT, a);
-      await fs.promises.copyFile(src, outPath);
+      if (a === '404.html') {
+        // Minify 404.html
+        const html = await fs.promises.readFile(src, 'utf8');
+        const minified = minifyHtml(html);
+        await fs.promises.writeFile(outPath, minified, 'utf8');
+      } else {
+        await fs.promises.copyFile(src, outPath);
+      }
     }
   }
 
