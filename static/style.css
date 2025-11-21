@@ -10,6 +10,8 @@ body {
   position: relative;
   color: rgb(240, 240, 240);
   font-family: Arial, sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 a {
@@ -66,8 +68,6 @@ button {
     padding: 0;
     overflow: hidden;
     display: flex;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
   }
 
   .navbar li a,
@@ -80,9 +80,6 @@ button {
     font-size: 1rem;
     border: none;
     cursor: default;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
   }
 
   .navbar li a:hover,
