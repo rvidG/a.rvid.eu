@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+  <text x="24" y="28"
+        font-family="Arial, sans-serif"
+        font-weight="700"
+        font-size="38"
+        fill="#222"
+        text-anchor="middle"
+        dominant-baseline="middle">@</text>
+</svg>
