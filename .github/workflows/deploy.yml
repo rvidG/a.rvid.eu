@@ -28,7 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build site
-        run: npm run build
+        run: | 
+          npm run build
+          cd public && ln -s images/favicon.svg ./favicon.ico
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
