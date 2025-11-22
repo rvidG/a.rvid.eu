@@ -68,6 +68,11 @@ button {
   display: block;
 }
 
+.download {
+  padding: 0;
+  margin: 0;
+}
+
 .download a {
   color: var(--download-color);
   font-weight: bold;
