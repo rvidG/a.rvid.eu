@@ -63,6 +63,11 @@ button {
   align-items: center;
 }
 
+.pre {
+  cursor: context-menu;
+  color: #008B8B;
+}
+
 .discord {
   width: 75%;
   background-color: #1c1b1e;
