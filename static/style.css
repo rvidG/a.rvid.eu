@@ -68,7 +68,7 @@ button {
   display: block;
 }
 
-.download {
+.download a {
   color: var(--download-color);
 }
 
