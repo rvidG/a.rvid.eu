@@ -1,7 +1,7 @@
 :root {
   --bg-color: #222222;
   --text-color: rgb(240, 240, 240);
-  --download-color: forestgreen;
+  --download-color: green;
   --link-color: #FFA500;
   --nav-bg: rgba(0, 0, 0, 0.165);
   --nav-hover: radial-gradient(rgb(34, 34, 60), #222222);
@@ -70,6 +70,7 @@ button {
 
 .download a {
   color: var(--download-color);
+  font-weight: bold;
 }
 
 /* Layout */
