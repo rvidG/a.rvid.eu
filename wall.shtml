@@ -71,21 +71,15 @@
     </noscript>
   </main>
 
-  <div id="img1" class="lightbox">
-    <a href="#">loading...</a>
-    <a href="#">
+  <a href="#">
+    <div id="img1" class="lightbox">
       <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
-    </a>
-  </div>
-  <div id="img2" class="lightbox">
-    <a href="#">loading...</a>
-    <a href="#">
+    </div>
+    <div id="img2" class="lightbox">
       <img src="/images/wallpaper-vault/Horizon/HorizonDark.jpg" loading="lazy" alt="Dark horizon with a pier">
-    </a>
-    <a hidden href="#">
-      <img src="/images/wallpaper-vault/Horizon/HorizonLight.jpg" loading="lazy" alt="Horizon with a pier">
-    </a>
-  </div>
+      <img hidden src="/images/wallpaper-vault/Horizon/HorizonLight.jpg" loading="lazy" alt="Horizon with a pier">
+    </div>
+  </a>
 </body>
 
 </html>
