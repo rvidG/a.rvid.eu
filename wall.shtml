@@ -76,7 +76,7 @@
       <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
     </div>
     <div id="img2" class="lightbox">
-      <img src="/images/wallpaper-vault/Horizon/HorizonDark.jpg" loading="lazy" alt="Dark horizon with a pier">
+      <img src="/images/wallpaper-vault/Horizon/Dark/Horizon.avif" loading="lazy" alt="Dark horizon with a pier">
       <img hidden src="/images/wallpaper-vault/Horizon/HorizonLight.jpg" loading="lazy" alt="Horizon with a pier">
     </div>
   </a>
