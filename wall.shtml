@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/templates/header.html" -->
+  <meta name="description"
+    content="Free wallpapers without licenses, photographed and/or edited by me. Download or use them for any purpose.">
+  <meta property="og:title" content="Free Wallpapers by rvidg">
+  <meta property="og:description"
+    content="Free wallpapers without licenses, photographed and/or edited by me. Download or use them for any purpose.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://a.rvid.eu/wallpapers.html">
+  <meta property="og:image" content="https://a.rvid.eu/images/wallpaper-vault/GrassyCat/GrassyCat.avif">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free Wallpapers by me">
+  <meta name="twitter:description" content="Free wallpapers without licenses, photographed and/or edited by me.">
+  <meta name="twitter:image" content="https://a.rvid.eu/images/wallpaper-vault/GrassyCat/GrassyCat.avif">
+
+  <title>rvid | Wallpapers!</title>
+  <link rel="canonical" href="https://a.rvid.eu/wallpapers">
+</head>
+
+<body>
+  <!--#include virtual="/templates/navbar.html" -->
+  <main>
+    <header>
+      <h1>Wallpapers!</h1>
+      <p>A collection of general wallpapers created by me. Download instead of right clicking - save image to get
+        lossless images! Expand:</p>
+
+      <h2>Grassy Cat</h2>
+      <p class="description">Description: A cat in a natural environment</p>
+      <a href="#img1">View</a>
+      <div class="download">
+        <p>Download <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" download>AVIF (slight compression)</a> or
+          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" download>PNG (lossless)</a>
+        </p>
+      </div>
+      <a href="/images/wallpaper-vault/GrassyCat/Original.png" alt="Original image before edited"
+        target="_blank">Original image</a>
+      <h2>Horizon</h2>
+      <p class="Description">Horizon on a lake with a pier. Not my finest work, but cool nonetheless.</p>
+      <a href="#img2">View</a>
+      <div class="download">
+        <p>Darker image - <a href="/images/wallpaper-vault/Horizon/HorizonDark.jpg" download>HorizonDark.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonDark.avif">HorizonDark.avif</a></p>
+        <p hidden>Lighter image - <a href="/images/wallpaper-vault/Horizon/HorizonLight.jpg" download>HorizonLight.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonLight.avif">HorizonLight.avif</a></p>
+      </div>
+      <details>
+        <summary>Licensed under WTFPL (expand)</summary>
+        <div class="code">
+          <pre><code>
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2025 Arvid &lt;contact@rvid.eu&gt;
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+            </code></pre>
+        </div>
+      </details>
+    </header>
+    <noscript>
+      <p style="color: grey; text-align: center;">Goodbye js!</p>
+    </noscript>
+  </main>
+
+  <div id="img1" class="lightbox">
+    <a href="#">x</a>
+    <a href="#">
+      <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
+    </a>
+  </div>
+  <div id="img2" class="lightbox">
+    <a href="#">x</a>
+    <a href="#">
+      <img src="/images/wallpaper-vault/Horizon/HorizonDark.jpg" loading="lazy" alt="Dark horizon with a pier">
+    </a>
+    <a hidden href="#">
+      <img src="/images/wallpaper-vault/Horizon/HorizonLight.jpg" loading="lazy" alt="Horizon with a pier">
+    </a>
+  </div>
+</body>
+
+</html>
