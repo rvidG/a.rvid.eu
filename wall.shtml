@@ -72,13 +72,13 @@
   </main>
 
   <div id="img1" class="lightbox">
-    <a href="#">x</a>
+    <a href="#">loading...</a>
     <a href="#">
       <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
     </a>
   </div>
   <div id="img2" class="lightbox">
-    <a href="#">x</a>
+    <a href="#">loading...</a>
     <a href="#">
       <img src="/images/wallpaper-vault/Horizon/HorizonDark.jpg" loading="lazy" alt="Dark horizon with a pier">
     </a>
