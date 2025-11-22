@@ -45,17 +45,17 @@
           </a>
         </div>
       </details>
-      <h2>Horizon (light/dark)</h2>
+      <h2>Horizon</h2>
       <p class="Description">Horizon on a lake with a pier. Not my finest work, but cool nonetheless.</p>
       <div class="download">
         <p>Darker image - <a href="/images/wallpaper-vault/Horizon/HorizonDark.jpg" download>HorizonDark.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonDark.avif">HorizonDark.avif</a></p><br>
-        <p>Lighter image - <a href="/images/wallpaper-vault/Horizon/HorizonLight.jpg" download>HorizonLight.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonLight.avif">HorizonLight.avif</a></p><br>
+        <p hidden>Lighter image - <a href="/images/wallpaper-vault/Horizon/HorizonLight.jpg" download>HorizonLight.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonLight.avif">HorizonLight.avif</a></p><br>
       </div>
       <details>
         <summary>Expand preview</summary>
         <div class="wallpaper">
           <a href="/images/wallpaper-vault/Horizon/HorizonDark.jpg" target="_blank"><img src="/images/wallpaper-vault/Horizon/Dark/Horizon.avif" alt="Dark horizon with a pier" loading="lazy"></a>
-          <a href="/images/wallpaper-vault/Horizon/HorizonLight.jpg" target="_blank"><img src="/images/wallpaper-vault/Horizon/Light/Horizon.avif" alt="Horizon with a pier" loading="lazy"></a>
+          <a hidden href="/images/wallpaper-vault/Horizon/HorizonLight.jpg" target="_blank"><img src="/images/wallpaper-vault/Horizon/Light/Horizon.avif" alt="Horizon with a pier" loading="lazy"></a>
         </div>
       </details>
       <details>
