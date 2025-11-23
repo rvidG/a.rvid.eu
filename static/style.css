@@ -58,7 +58,8 @@ button {
 }
 
 #img1:target,
-#img2:target {
+#img2:target,
+#img3:target {
   display: flex;
   justify-content: center;
   align-items: center;

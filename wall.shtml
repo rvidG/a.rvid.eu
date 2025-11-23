@@ -45,6 +45,13 @@
         <p>Darker image - <a href="/images/wallpaper-vault/Horizon/HorizonDark.jpg" download>HorizonDark.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonDark.avif">HorizonDark.avif</a></p>
         <p hidden>Lighter image - <a href="/images/wallpaper-vault/Horizon/HorizonLight.jpg" download>HorizonLight.jpg</a>, or <a href="/images/wallpaper-vault/Horizon/HorizonLight.avif">HorizonLight.avif</a></p>
       </div>
+      <h2>Halostar</h2>
+      <p class="description">Description: A sundog halo during the sunset enclosing a falling star, just above a slope.</p>
+      <a href="#img3" class="pre">View</a>
+      <div class="download">
+        <p>Darker image - <a href="/images/wallpaper-vault/Halo/Halo.jpg" download>Halo.jpg</a>, or <a href="/images/wallpaper-vault/Halo/Halo.avif">HorizonDark.avif</a></p>
+      </div>
+
       <details>
         <summary>Licensed under WTFPL (expand)</summary>
         <div class="code">
@@ -76,6 +83,10 @@
       <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
     </div>
     <div id="img2" class="lightbox">
+      <img src="/images/wallpaper-vault/Horizon/Dark/Horizon.avif" loading="lazy" alt="Dark horizon with a pier">
+      <img hidden src="/images/wallpaper-vault/Horizon/HorizonLight.jpg" loading="lazy" alt="Horizon with a pier">
+    </div>
+    <div id="img3" class="lightbox">
       <img src="/images/wallpaper-vault/Horizon/Dark/Horizon.avif" loading="lazy" alt="Dark horizon with a pier">
       <img hidden src="/images/wallpaper-vault/Horizon/HorizonLight.jpg" loading="lazy" alt="Horizon with a pier">
     </div>
