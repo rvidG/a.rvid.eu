@@ -27,6 +27,10 @@ a {
   color: var(--link-color);
 }
 
+h1 {
+  border-bottom: 2mm ridge rgb(0 0 0);
+}
+
 button {
   padding: 0.5em;
   border-radius: var(--border-radius);
