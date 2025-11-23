@@ -105,10 +105,12 @@ button {
   display: block;
 }
 
+.download {
+  border-radius: 0.3em;
+}
 .download a {
   font-weight: bold;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding: 0.6rem;
   background-color: var(--nav-bg)
 }
 
