@@ -1,6 +1,8 @@
 // ...existing code...
 const fs = require('fs');
 const path = require('path');
+const marked = require('marked');
+const matter = require('gray-matter');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'public');
@@ -146,6 +148,42 @@ async function build() {
   const imagesSrc = path.join(ROOT, 'images');
   if (fs.existsSync(imagesSrc)) {
     await copyFolder(imagesSrc, path.join(OUT, 'images'));
+  }
+
+  // Process Blogs
+  const blogsDir = path.join(ROOT, 'blogs');
+  if (fs.existsSync(blogsDir)) {
+    const blogTemplatePath = path.join(ROOT, 'templates', 'blog.html');
+    const blogTemplate = await readFileIfExists(blogTemplatePath);
+    
+    if (blogTemplate) {
+      const mdFiles = await walkDir(blogsDir, '.md');
+      for (const mdFile of mdFiles) {
+        const rawContent = await fs.promises.readFile(mdFile, 'utf8');
+        const { data, content } = matter(rawContent);
+        const htmlContent = marked.parse(content);
+        
+        const rel = path.relative(blogsDir, mdFile);
+        const slug = rel.replace(/\.md$/, '');
+        const outPath = path.join(OUT, 'blogs', slug + '.html');
+        
+        let finalHtml = blogTemplate
+          .replace(/{{TITLE}}/g, data.title || 'Untitled')
+          .replace(/{{DESCRIPTION}}/g, data.description || '')
+          .replace(/{{KEYWORDS}}/g, data.keywords || '')
+          .replace(/{{IMAGE}}/g, data.image || '')
+          .replace(/{{DATE}}/g, data.date || '')
+          .replace(/{{SLUG}}/g, slug)
+          .replace('{{CONTENT}}', htmlContent);
+          
+        finalHtml = await resolveIncludes(finalHtml, path.dirname(mdFile));
+        finalHtml = minifyHtml(finalHtml);
+        
+        await mkdirp(path.dirname(outPath));
+        await fs.promises.writeFile(outPath, finalHtml, 'utf8');
+        console.log('Wrote Blog:', path.relative(ROOT, outPath));
+      }
+    }
   }
 
   const topAssets = ['favicon.svg', 'robots.txt', '404.html'];

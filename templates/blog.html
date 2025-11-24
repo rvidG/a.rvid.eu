@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/templates/header.html" -->
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="keywords" content="{{KEYWORDS}}">
+  <meta property="og:title" content="{{TITLE}} | rvid.eu">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="https://a.rvid.eu/blogs/{{SLUG}}.html">
+  <meta property="og:image" content="{{IMAGE}}">
+  <meta name="twitter:title" content="{{TITLE}} | rvid.eu">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="{{IMAGE}}">
+  <title>{{TITLE}} | rvid.eu</title>
+  <link rel="canonical" href="https://a.rvid.eu/blogs/{{SLUG}}.html">
+</head>
+
+<body>
+  <!--#include virtual="/templates/navbar.html" -->
+  <main>
+    <article>
+      <header>
+        <h1>{{TITLE}}</h1>
+        <p><time datetime="{{DATE}}">{{DATE}}</time></p>
+      </header>
+      {{CONTENT}}
+    </article>
+  </main>
+  <noscript>
+    <p style="color: grey; text-align: center;">Goodbye js!</p>
+  </noscript>
+</body>
+
+</html>
